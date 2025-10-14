@@ -29,3 +29,35 @@ INSERT INTO vendas VALUES
 (18, 'Rafael', 'Impressora', 'Periféricos', 1, 670.00, '2025-03-22'),
 (19, 'Sofia', 'Headset', 'Periféricos', 2, 160.00, '2025-03-25'),
 (20, 'Tiago', 'Monitor', 'Informática', 1, 940.00, '2025-03-30');
+
+---------------------------------------------------
+CLIENTES
+---------------------------------------------------
+CREATE TABLE clientes (
+    id INT PRIMARY KEY,
+    nome VARCHAR(50),
+    cidade VARCHAR(50),
+    email VARCHAR(100)
+);
+
+INSERT INTO clientes (id, nome, cidade, email) VALUES
+(1, 'Ana Clara', 'São Paulo', 'ana.clara@gmail.com'),
+(2, 'Bruno Souza', 'Rio de Janeiro', 'bruno.souza@yahoo.com'),
+(3, 'Carla Mendes', 'Salvador', 'carla.mendes@gmail.com'),
+(4, 'Daniel Costa', 'Recife', 'daniel.costa@outlook.com'),
+(5, 'Eduardo Lima', 'Fortaleza', 'eduardo.lima@gmail.com'),
+(6, 'Fernanda Alves', 'Curitiba', 'fernanda.alves@hotmail.com'),
+(7, 'Gabriel Martins', 'São Paulo', 'gabriel.martins@gmail.com'),
+(8, 'Helena Rodrigues', 'Belo Horizonte', 'helena.rodrigues@uol.com'),
+(9, 'Igor Ferreira', 'Manaus', 'igor.ferreira@gmail.com'),
+(10, 'Joana Dantas', 'Natal', 'joana.dantas@hotmail.com'),
+(11, 'Karla Souza', 'Campinas', 'karla.souza@gmail.com'),
+(12, 'Lucas Pereira', 'São Luís', 'lucas.pereira@yahoo.com'),
+(13, 'Mariana Torres', 'Belém', 'mariana.torres@gmail.com'),
+(14, 'Nicolas Alves', 'Brasília', 'nicolas.alves@gmail.com'),
+(15, 'Otávio Ribeiro', 'Porto Alegre', 'otavio.ribeiro@hotmail.com'),
+(16, 'Patrícia Gomes', 'Florianópolis', 'patricia.gomes@gmail.com'),
+(17, 'Rafael Duarte', 'São Paulo', 'rafael.duarte@yahoo.com'),
+(18, 'Sabrina Nunes', 'João Pessoa', 'sabrina.nunes@gmail.com'),
+(19, 'Tiago Lima', 'Vitória', 'tiago.lima@outlook.com'),
+(20, 'Vanessa Costa', 'Aracaju', 'vanessa.costa@gmail.com');
